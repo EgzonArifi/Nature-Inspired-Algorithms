@@ -21,6 +21,11 @@ class PositionBasedVC: NSViewController {
     }
     
     @IBAction func createChild(_ sender: Any) {
+        
+        if kInput.stringValue.isEmpty {
+            return
+        }
+        
         let positionBased = PositionBased(k: Int(kInput.intValue))
         resultView.stringValue =
         "Parent 1:     \(positionBased.parent1) \nParent 2:     \(positionBased.parent2) \nNew Child:  \(positionBased.createChild())"

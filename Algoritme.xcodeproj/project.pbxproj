@@ -65,10 +65,9 @@
 				774F36541FADBC68008497D6 /* AppDelegate.swift */,
 				774F366D1FAE5323008497D6 /* Position Based */,
 				774F366C1FAE530D008497D6 /* K-gene OrderBased */,
-				774F36581FADBC68008497D6 /* Assets.xcassets */,
-				774F365A1FADBC68008497D6 /* Main.storyboard */,
-				774F365D1FADBC68008497D6 /* Info.plist */,
+				774F36701FAF1824008497D6 /* View */,
 				774F36691FAE4ED3008497D6 /* Utils */,
+				774F365D1FADBC68008497D6 /* Info.plist */,
 			);
 			path = Algoritme;
 			sourceTree = "<group>";
@@ -98,6 +97,15 @@
 				774F366E1FAE533C008497D6 /* PositionBased.swift */,
 			);
 			name = "Position Based";
+			sourceTree = "<group>";
+		};
+		774F36701FAF1824008497D6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				774F36581FADBC68008497D6 /* Assets.xcassets */,
+				774F365A1FADBC68008497D6 /* Main.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -21,6 +21,9 @@ class ViewController: NSViewController {
     }
     
     @IBAction func createChild(_ sender: Any) {
+        if kInput.stringValue.isEmpty {
+            return
+        }
         
         let orderBased = OrderBased(k: Int(kInput.intValue))
         resultTextField.stringValue =
