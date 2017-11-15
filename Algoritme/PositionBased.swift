@@ -84,5 +84,4 @@ class PositionBased {
         return temp;
     }
 
-    
 }
