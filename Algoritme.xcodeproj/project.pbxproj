@@ -16,6 +16,14 @@
 		774F36681FAE4D88008497D6 /* TextFieldFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774F36671FAE4D88008497D6 /* TextFieldFormatter.swift */; };
 		774F366B1FAE4FEC008497D6 /* PositionBasedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774F366A1FAE4FEC008497D6 /* PositionBasedVC.swift */; };
 		774F366F1FAE533C008497D6 /* PositionBased.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774F366E1FAE533C008497D6 /* PositionBased.swift */; };
+		774F36771FAF1EF0008497D6 /* OnePointCrossoverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774F36761FAF1EF0008497D6 /* OnePointCrossoverVC.swift */; };
+		774F36791FAF1F16008497D6 /* OnePointCrossover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774F36781FAF1F16008497D6 /* OnePointCrossover.swift */; };
+		774F367C1FAF5E46008497D6 /* TwoPointCrossOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774F367B1FAF5E46008497D6 /* TwoPointCrossOver.swift */; };
+		774F367E1FAF5E5C008497D6 /* TwoPointCrossOverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774F367D1FAF5E5C008497D6 /* TwoPointCrossOverVC.swift */; };
+		774F36811FAFABD9008497D6 /* OrderBasedMutationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774F36801FAFABD9008497D6 /* OrderBasedMutationVC.swift */; };
+		774F36831FAFABE2008497D6 /* OrderBasedMutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774F36821FAFABE2008497D6 /* OrderBasedMutation.swift */; };
+		77B6837B1FC2193C00035679 /* Permutator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B6837A1FC2193C00035679 /* Permutator.swift */; };
+		77B6837D1FC2198500035679 /* NeighbourhoodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B6837C1FC2198500035679 /* NeighbourhoodVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +38,14 @@
 		774F36671FAE4D88008497D6 /* TextFieldFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldFormatter.swift; sourceTree = "<group>"; };
 		774F366A1FAE4FEC008497D6 /* PositionBasedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionBasedVC.swift; sourceTree = "<group>"; };
 		774F366E1FAE533C008497D6 /* PositionBased.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionBased.swift; sourceTree = "<group>"; };
+		774F36761FAF1EF0008497D6 /* OnePointCrossoverVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnePointCrossoverVC.swift; sourceTree = "<group>"; };
+		774F36781FAF1F16008497D6 /* OnePointCrossover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnePointCrossover.swift; sourceTree = "<group>"; };
+		774F367B1FAF5E46008497D6 /* TwoPointCrossOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoPointCrossOver.swift; sourceTree = "<group>"; };
+		774F367D1FAF5E5C008497D6 /* TwoPointCrossOverVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoPointCrossOverVC.swift; sourceTree = "<group>"; };
+		774F36801FAFABD9008497D6 /* OrderBasedMutationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderBasedMutationVC.swift; sourceTree = "<group>"; };
+		774F36821FAFABE2008497D6 /* OrderBasedMutation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderBasedMutation.swift; sourceTree = "<group>"; };
+		77B6837A1FC2193C00035679 /* Permutator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Permutator.swift; sourceTree = "<group>"; };
+		77B6837C1FC2198500035679 /* NeighbourhoodVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeighbourhoodVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +79,12 @@
 			isa = PBXGroup;
 			children = (
 				774F36541FADBC68008497D6 /* AppDelegate.swift */,
-				774F366D1FAE5323008497D6 /* Position Based */,
-				774F366C1FAE530D008497D6 /* K-gene OrderBased */,
+				77B683791FC192EB00035679 /* Neighbourhoods */,
+				774F36751FAF1ECF008497D6 /* OnePoint Crossover */,
+				774F367A1FAF5E20008497D6 /* TwoPoint Crossover */,
+				774F366D1FAE5323008497D6 /* Position Based Crossover */,
+				774F366C1FAE530D008497D6 /* K-gene OrderBased Crossover */,
+				774F367F1FAFAB9E008497D6 /* OrderBased Mutation */,
 				774F36701FAF1824008497D6 /* View */,
 				774F36691FAE4ED3008497D6 /* Utils */,
 				774F365D1FADBC68008497D6 /* Info.plist */,
@@ -75,28 +95,29 @@
 		774F36691FAE4ED3008497D6 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				77B6837A1FC2193C00035679 /* Permutator.swift */,
 				774F36651FADF507008497D6 /* Sequence.swift */,
 				774F36671FAE4D88008497D6 /* TextFieldFormatter.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
 		};
-		774F366C1FAE530D008497D6 /* K-gene OrderBased */ = {
+		774F366C1FAE530D008497D6 /* K-gene OrderBased Crossover */ = {
 			isa = PBXGroup;
 			children = (
 				774F36561FADBC68008497D6 /* ViewController.swift */,
 				774F36631FADBD2C008497D6 /* OrderBased.swift */,
 			);
-			name = "K-gene OrderBased";
+			name = "K-gene OrderBased Crossover";
 			sourceTree = "<group>";
 		};
-		774F366D1FAE5323008497D6 /* Position Based */ = {
+		774F366D1FAE5323008497D6 /* Position Based Crossover */ = {
 			isa = PBXGroup;
 			children = (
 				774F366A1FAE4FEC008497D6 /* PositionBasedVC.swift */,
 				774F366E1FAE533C008497D6 /* PositionBased.swift */,
 			);
-			name = "Position Based";
+			name = "Position Based Crossover";
 			sourceTree = "<group>";
 		};
 		774F36701FAF1824008497D6 /* View */ = {
@@ -106,6 +127,41 @@
 				774F365A1FADBC68008497D6 /* Main.storyboard */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		774F36751FAF1ECF008497D6 /* OnePoint Crossover */ = {
+			isa = PBXGroup;
+			children = (
+				774F36761FAF1EF0008497D6 /* OnePointCrossoverVC.swift */,
+				774F36781FAF1F16008497D6 /* OnePointCrossover.swift */,
+			);
+			name = "OnePoint Crossover";
+			sourceTree = "<group>";
+		};
+		774F367A1FAF5E20008497D6 /* TwoPoint Crossover */ = {
+			isa = PBXGroup;
+			children = (
+				774F367B1FAF5E46008497D6 /* TwoPointCrossOver.swift */,
+				774F367D1FAF5E5C008497D6 /* TwoPointCrossOverVC.swift */,
+			);
+			name = "TwoPoint Crossover";
+			sourceTree = "<group>";
+		};
+		774F367F1FAFAB9E008497D6 /* OrderBased Mutation */ = {
+			isa = PBXGroup;
+			children = (
+				774F36801FAFABD9008497D6 /* OrderBasedMutationVC.swift */,
+				774F36821FAFABE2008497D6 /* OrderBasedMutation.swift */,
+			);
+			name = "OrderBased Mutation";
+			sourceTree = "<group>";
+		};
+		77B683791FC192EB00035679 /* Neighbourhoods */ = {
+			isa = PBXGroup;
+			children = (
+				77B6837C1FC2198500035679 /* NeighbourhoodVC.swift */,
+			);
+			name = Neighbourhoods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,10 +236,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				774F36831FAFABE2008497D6 /* OrderBasedMutation.swift in Sources */,
+				774F36791FAF1F16008497D6 /* OnePointCrossover.swift in Sources */,
 				774F36571FADBC68008497D6 /* ViewController.swift in Sources */,
+				774F36811FAFABD9008497D6 /* OrderBasedMutationVC.swift in Sources */,
+				77B6837B1FC2193C00035679 /* Permutator.swift in Sources */,
 				774F36641FADBD2C008497D6 /* OrderBased.swift in Sources */,
+				774F367E1FAF5E5C008497D6 /* TwoPointCrossOverVC.swift in Sources */,
 				774F366F1FAE533C008497D6 /* PositionBased.swift in Sources */,
 				774F36661FADF507008497D6 /* Sequence.swift in Sources */,
+				77B6837D1FC2198500035679 /* NeighbourhoodVC.swift in Sources */,
+				774F36771FAF1EF0008497D6 /* OnePointCrossoverVC.swift in Sources */,
+				774F367C1FAF5E46008497D6 /* TwoPointCrossOver.swift in Sources */,
 				774F366B1FAE4FEC008497D6 /* PositionBasedVC.swift in Sources */,
 				774F36681FAE4D88008497D6 /* TextFieldFormatter.swift in Sources */,
 				774F36551FADBC68008497D6 /* AppDelegate.swift in Sources */,
@@ -341,6 +405,7 @@
 				774F36621FADBC68008497D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
