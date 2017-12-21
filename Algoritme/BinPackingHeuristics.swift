@@ -21,12 +21,21 @@ class BinPackingHeuristics: NSViewController {
     @IBOutlet weak var e7: NSTextField!
     @IBOutlet weak var e8: NSTextField!
     
+    @IBOutlet weak var g1: NSTextField!
+    @IBOutlet weak var g2: NSTextField!
+    @IBOutlet weak var g3: NSTextField!
+    @IBOutlet weak var g4: NSTextField!
+    @IBOutlet weak var g5: NSTextField!
+    @IBOutlet weak var g6: NSTextField!
+    @IBOutlet weak var g7: NSTextField!
+    @IBOutlet weak var g8: NSTextField!
+    
     var bins = [BinPack]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        hyperHeuristicsBinPacking()
+        //hyperHeuristicsBinPacking()
     }
     
     @IBAction func mutateSingleGene(_ sender: Any) {
@@ -37,10 +46,14 @@ class BinPackingHeuristics: NSViewController {
         if let e1 = Float(e1.stringValue),let e2 = Float(e2.stringValue),
             let e3 = Float(e3.stringValue), let e4 = Float(e4.stringValue),
             let e5 = Float(e5.stringValue), let e6 = Float(e6.stringValue),
-            let e7 = Float(e7.stringValue), let e8 = Float(e8.stringValue) {
+            let e7 = Float(e7.stringValue), let e8 = Float(e8.stringValue),
+            let g1 = Int(g1.stringValue), let g2 = Int(g2.stringValue),
+            let g3 = Int(g3.stringValue), let g4 = Int(g4.stringValue),
+            let g5 = Int(g5.stringValue), let g6 = Int(g6.stringValue),
+            let g7 = Int(g7.stringValue), let g8 = Int(g8.stringValue) {
             
             let binPack = BinPacking(weightsEncoding: [e1,e2,e3,e4,e5,e6,e7,e8],
-                                     genotype: [3,2,1,2,3,1,2,1])
+                                     genotype: [g1,g2,g3,g4,g5,g6,g7,g8])
             bins = binPack.bins
             collectionView.reloadData()
         } else {
@@ -70,7 +83,7 @@ extension BinPackingHeuristics : NSCollectionViewDataSource {
         
         for item in bins[indexPath.item].weights {
             if let text = collectionViewItem.textField?.stringValue {
-                collectionViewItem.textField?.stringValue = "\(text) \n W\(item)"
+                collectionViewItem.textField?.stringValue = "\(text) \n \(item)"
             }
         }
     
