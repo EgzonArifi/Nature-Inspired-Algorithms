@@ -11,6 +11,7 @@
 		77061C651FDA9DA500F3ED91 /* CollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77061C631FDA9DA500F3ED91 /* CollectionViewItem.xib */; };
 		77061C661FDA9DA500F3ED91 /* CollectionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77061C641FDA9DA500F3ED91 /* CollectionViewItem.swift */; };
 		77061C681FDA9EEA00F3ED91 /* Timetabling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77061C671FDA9EEA00F3ED91 /* Timetabling.swift */; };
+		7707C6C21FED161B00AEE89E /* BinPackObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7707C6C11FED161B00AEE89E /* BinPackObjC.m */; };
 		774F36551FADBC68008497D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774F36541FADBC68008497D6 /* AppDelegate.swift */; };
 		774F36571FADBC68008497D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774F36561FADBC68008497D6 /* ViewController.swift */; };
 		774F36591FADBC68008497D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 774F36581FADBC68008497D6 /* Assets.xcassets */; };
@@ -28,8 +29,12 @@
 		774F36831FAFABE2008497D6 /* OrderBasedMutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774F36821FAFABE2008497D6 /* OrderBasedMutation.swift */; };
 		7791D01A1FD3F6810012D70D /* SolutionILS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7791D0191FD3F6810012D70D /* SolutionILS.swift */; };
 		7791D01C1FD3F7100012D70D /* ILSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7791D01B1FD3F7100012D70D /* ILSViewController.swift */; };
+		77AF4D631FED3B0600E691A5 /* BinPackModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AF4D621FED3B0600E691A5 /* BinPackModel.m */; };
 		77B6837B1FC2193C00035679 /* Permutator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B6837A1FC2193C00035679 /* Permutator.swift */; };
 		77B6837D1FC2198500035679 /* NeighbourhoodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B6837C1FC2198500035679 /* NeighbourhoodVC.swift */; };
+		77C18C921FEA507200829579 /* BinPackingHeuristics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C18C911FEA507200829579 /* BinPackingHeuristics.swift */; };
+		77C18C941FEA962600829579 /* BinPacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C18C931FEA962600829579 /* BinPacking.swift */; };
+		77C18C961FEC717E00829579 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C18C951FEC717E00829579 /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +42,9 @@
 		77061C631FDA9DA500F3ED91 /* CollectionViewItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewItem.xib; sourceTree = "<group>"; };
 		77061C641FDA9DA500F3ED91 /* CollectionViewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewItem.swift; sourceTree = "<group>"; };
 		77061C671FDA9EEA00F3ED91 /* Timetabling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timetabling.swift; sourceTree = "<group>"; };
+		7707C6BF1FED161B00AEE89E /* Algoritme-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Algoritme-Bridging-Header.h"; sourceTree = "<group>"; };
+		7707C6C01FED161B00AEE89E /* BinPackObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinPackObjC.h; sourceTree = "<group>"; };
+		7707C6C11FED161B00AEE89E /* BinPackObjC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinPackObjC.m; sourceTree = "<group>"; };
 		774F36511FADBC68008497D6 /* Algoritme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algoritme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		774F36541FADBC68008497D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		774F36561FADBC68008497D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,8 +64,13 @@
 		774F36821FAFABE2008497D6 /* OrderBasedMutation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderBasedMutation.swift; sourceTree = "<group>"; };
 		7791D0191FD3F6810012D70D /* SolutionILS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolutionILS.swift; sourceTree = "<group>"; };
 		7791D01B1FD3F7100012D70D /* ILSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ILSViewController.swift; sourceTree = "<group>"; };
+		77AF4D611FED3B0600E691A5 /* BinPackModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinPackModel.h; sourceTree = "<group>"; };
+		77AF4D621FED3B0600E691A5 /* BinPackModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinPackModel.m; sourceTree = "<group>"; };
 		77B6837A1FC2193C00035679 /* Permutator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Permutator.swift; sourceTree = "<group>"; };
 		77B6837C1FC2198500035679 /* NeighbourhoodVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeighbourhoodVC.swift; sourceTree = "<group>"; };
+		77C18C911FEA507200829579 /* BinPackingHeuristics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinPackingHeuristics.swift; sourceTree = "<group>"; };
+		77C18C931FEA962600829579 /* BinPacking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinPacking.swift; sourceTree = "<group>"; };
+		77C18C951FEC717E00829579 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +114,7 @@
 		774F36531FADBC68008497D6 /* Algoritme */ = {
 			isa = PBXGroup;
 			children = (
+				77C18C901FEA500A00829579 /* Bin Packing Heuristics */,
 				77061C5C1FDA937B00F3ED91 /* Timetabling */,
 				774F36541FADBC68008497D6 /* AppDelegate.swift */,
 				7791D0181FD3F6630012D70D /* ILS */,
@@ -123,6 +137,7 @@
 				77B6837A1FC2193C00035679 /* Permutator.swift */,
 				774F36651FADF507008497D6 /* Sequence.swift */,
 				774F36671FAE4D88008497D6 /* TextFieldFormatter.swift */,
+				77C18C951FEC717E00829579 /* String.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -198,6 +213,20 @@
 			name = Neighbourhoods;
 			sourceTree = "<group>";
 		};
+		77C18C901FEA500A00829579 /* Bin Packing Heuristics */ = {
+			isa = PBXGroup;
+			children = (
+				77C18C911FEA507200829579 /* BinPackingHeuristics.swift */,
+				77C18C931FEA962600829579 /* BinPacking.swift */,
+				7707C6C01FED161B00AEE89E /* BinPackObjC.h */,
+				7707C6C11FED161B00AEE89E /* BinPackObjC.m */,
+				7707C6BF1FED161B00AEE89E /* Algoritme-Bridging-Header.h */,
+				77AF4D611FED3B0600E691A5 /* BinPackModel.h */,
+				77AF4D621FED3B0600E691A5 /* BinPackModel.m */,
+			);
+			name = "Bin Packing Heuristics";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -231,6 +260,7 @@
 					774F36501FADBC68008497D6 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = A4L93BSQEG;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -272,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				774F36831FAFABE2008497D6 /* OrderBasedMutation.swift in Sources */,
+				77AF4D631FED3B0600E691A5 /* BinPackModel.m in Sources */,
 				7791D01A1FD3F6810012D70D /* SolutionILS.swift in Sources */,
 				774F36791FAF1F16008497D6 /* OnePointCrossover.swift in Sources */,
 				774F36571FADBC68008497D6 /* ViewController.swift in Sources */,
@@ -282,6 +313,8 @@
 				774F367E1FAF5E5C008497D6 /* TwoPointCrossOverVC.swift in Sources */,
 				774F366F1FAE533C008497D6 /* PositionBased.swift in Sources */,
 				774F36661FADF507008497D6 /* Sequence.swift in Sources */,
+				77C18C961FEC717E00829579 /* String.swift in Sources */,
+				77C18C941FEA962600829579 /* BinPacking.swift in Sources */,
 				77061C661FDA9DA500F3ED91 /* CollectionViewItem.swift in Sources */,
 				77B6837D1FC2198500035679 /* NeighbourhoodVC.swift in Sources */,
 				774F36771FAF1EF0008497D6 /* OnePointCrossoverVC.swift in Sources */,
@@ -290,6 +323,8 @@
 				774F366B1FAE4FEC008497D6 /* PositionBasedVC.swift in Sources */,
 				774F36681FAE4D88008497D6 /* TextFieldFormatter.swift in Sources */,
 				774F36551FADBC68008497D6 /* AppDelegate.swift in Sources */,
+				77C18C921FEA507200829579 /* BinPackingHeuristics.swift in Sources */,
+				7707C6C21FED161B00AEE89E /* BinPackObjC.m in Sources */,
 				7791D01C1FD3F7100012D70D /* ILSViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,12 +437,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = A4L93BSQEG;
 				INFOPLIST_FILE = Algoritme/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.egzon.arifi.Algoritme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Algoritme/Algoritme-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -416,12 +454,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = A4L93BSQEG;
 				INFOPLIST_FILE = Algoritme/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.egzon.arifi.Algoritme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Algoritme/Algoritme-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
