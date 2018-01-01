@@ -5,5 +5,6 @@
   Bin packing problem using FFA, FFD, BF1
  ![Alt text](binpacking.png?raw=true "Title")
 
-
-  export AM to analyze in other analyzing tools like SocNetV, Gephi etc.
+# An indirect encoding for exam timetabling
+  Mutating an indirectly-encoded timetable
+ ![Alt text](timetabling.png?raw=true "Title")
