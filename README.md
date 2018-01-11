@@ -27,8 +27,10 @@ its path, according to quality of solution.
 
 • This pheromone trail affects behaviour of other ants by `stigmergy`
 
+
  Transition Rule
 ![Alt text](transitionRule.png?raw=true "Title")
+
 
  Global pheromone update
 ![Alt text](globalUpdate.png?raw=true "Title")
