@@ -27,8 +27,10 @@
 		774F367E1FAF5E5C008497D6 /* TwoPointCrossOverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774F367D1FAF5E5C008497D6 /* TwoPointCrossOverVC.swift */; };
 		774F36811FAFABD9008497D6 /* OrderBasedMutationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774F36801FAFABD9008497D6 /* OrderBasedMutationVC.swift */; };
 		774F36831FAFABE2008497D6 /* OrderBasedMutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774F36821FAFABE2008497D6 /* OrderBasedMutation.swift */; };
+		7779426520075B4A0049FACE /* ACO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7779426420075B4A0049FACE /* ACO.swift */; };
 		7791D01A1FD3F6810012D70D /* SolutionILS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7791D0191FD3F6810012D70D /* SolutionILS.swift */; };
 		7791D01C1FD3F7100012D70D /* ILSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7791D01B1FD3F7100012D70D /* ILSViewController.swift */; };
+		77AE376720027EEA0021142F /* AntController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AE376620027EEA0021142F /* AntController.swift */; };
 		77AF4D631FED3B0600E691A5 /* BinPackModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AF4D621FED3B0600E691A5 /* BinPackModel.m */; };
 		77B6837B1FC2193C00035679 /* Permutator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B6837A1FC2193C00035679 /* Permutator.swift */; };
 		77B6837D1FC2198500035679 /* NeighbourhoodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B6837C1FC2198500035679 /* NeighbourhoodVC.swift */; };
@@ -62,8 +64,10 @@
 		774F367D1FAF5E5C008497D6 /* TwoPointCrossOverVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoPointCrossOverVC.swift; sourceTree = "<group>"; };
 		774F36801FAFABD9008497D6 /* OrderBasedMutationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderBasedMutationVC.swift; sourceTree = "<group>"; };
 		774F36821FAFABE2008497D6 /* OrderBasedMutation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderBasedMutation.swift; sourceTree = "<group>"; };
+		7779426420075B4A0049FACE /* ACO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACO.swift; sourceTree = "<group>"; };
 		7791D0191FD3F6810012D70D /* SolutionILS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolutionILS.swift; sourceTree = "<group>"; };
 		7791D01B1FD3F7100012D70D /* ILSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ILSViewController.swift; sourceTree = "<group>"; };
+		77AE376620027EEA0021142F /* AntController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AntController.swift; sourceTree = "<group>"; };
 		77AF4D611FED3B0600E691A5 /* BinPackModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinPackModel.h; sourceTree = "<group>"; };
 		77AF4D621FED3B0600E691A5 /* BinPackModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinPackModel.m; sourceTree = "<group>"; };
 		77B6837A1FC2193C00035679 /* Permutator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Permutator.swift; sourceTree = "<group>"; };
@@ -114,9 +118,10 @@
 		774F36531FADBC68008497D6 /* Algoritme */ = {
 			isa = PBXGroup;
 			children = (
+				774F36541FADBC68008497D6 /* AppDelegate.swift */,
+				77AE3765200249A80021142F /* Ant Colony Optimization */,
 				77C18C901FEA500A00829579 /* Bin Packing Heuristics */,
 				77061C5C1FDA937B00F3ED91 /* Timetabling */,
-				774F36541FADBC68008497D6 /* AppDelegate.swift */,
 				7791D0181FD3F6630012D70D /* ILS */,
 				77B683791FC192EB00035679 /* Neighbourhoods */,
 				774F36751FAF1ECF008497D6 /* OnePoint Crossover */,
@@ -203,6 +208,15 @@
 				7791D01B1FD3F7100012D70D /* ILSViewController.swift */,
 			);
 			name = ILS;
+			sourceTree = "<group>";
+		};
+		77AE3765200249A80021142F /* Ant Colony Optimization */ = {
+			isa = PBXGroup;
+			children = (
+				77AE376620027EEA0021142F /* AntController.swift */,
+				7779426420075B4A0049FACE /* ACO.swift */,
+			);
+			name = "Ant Colony Optimization";
 			sourceTree = "<group>";
 		};
 		77B683791FC192EB00035679 /* Neighbourhoods */ = {
@@ -308,6 +322,7 @@
 				774F36571FADBC68008497D6 /* ViewController.swift in Sources */,
 				77061C681FDA9EEA00F3ED91 /* Timetabling.swift in Sources */,
 				774F36811FAFABD9008497D6 /* OrderBasedMutationVC.swift in Sources */,
+				7779426520075B4A0049FACE /* ACO.swift in Sources */,
 				77B6837B1FC2193C00035679 /* Permutator.swift in Sources */,
 				774F36641FADBD2C008497D6 /* OrderBased.swift in Sources */,
 				774F367E1FAF5E5C008497D6 /* TwoPointCrossOverVC.swift in Sources */,
@@ -326,6 +341,7 @@
 				77C18C921FEA507200829579 /* BinPackingHeuristics.swift in Sources */,
 				7707C6C21FED161B00AEE89E /* BinPackObjC.m in Sources */,
 				7791D01C1FD3F7100012D70D /* ILSViewController.swift in Sources */,
+				77AE376720027EEA0021142F /* AntController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
