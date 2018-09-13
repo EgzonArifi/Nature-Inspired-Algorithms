@@ -29,6 +29,21 @@ class BST {
             self.rootNode = node
         }
     }
+
+    
+    func search(_ node: Node?, _ value: Int) -> Bool {
+        guard let rootNode = node else {
+            return false
+        }
+        
+        if rootNode.value == value {
+            return true
+        } else if value <= rootNode.value {
+            return search(rootNode.leftNode, value)
+        } else {
+            return search(rootNode.rightNode, value)
+        }
+    }
     
     //MARK: Private
     private func insert(_ root: Node, _ node: Node) {
@@ -62,3 +77,11 @@ for number in numberList {
     root.addNode(number)
 }
 
+print("Inorder")
+root.printInorderTree() //should print sorted tree
+print("Preorder")
+root.printPreorderTree()
+print("Postorder")
+root.printPostorderTree()
+
+print(root.search(root.rootNode, 7))
